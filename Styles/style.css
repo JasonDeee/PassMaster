@@ -432,11 +432,13 @@ nav #Blank {
   background: none;
   font-family: "Lexend";
   font-size: 1.4vw;
+  color: white;
   font-weight: 400;
 }
 
 #message textarea {
   margin-top: 1vw;
+  color: white;
 }
 
 .name-input input:hover {
@@ -683,16 +685,28 @@ nav #Blank {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: horizontal;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 2vw;
-  padding-left: 15vw;
+  padding-left: 7vw;
   background: #4a00e0;
+}
+
+.column {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-left: 5vw;
+}
+
+.column p {
+  width: 65%;
+  height: auto;
 }
 
 #section3 {
@@ -708,7 +722,7 @@ nav #Blank {
           flex-direction: row;
   gap: 2vw;
   background: #8e2de2;
-  padding-left: 15vw;
+  padding-left: 7vw;
 }
 
 #section4 {
@@ -724,6 +738,6 @@ nav #Blank {
           flex-direction: row;
   gap: 2vw;
   background: brown;
-  padding-left: 15vw;
+  padding-left: 7vw;
 }
 /*# sourceMappingURL=style.css.map */
