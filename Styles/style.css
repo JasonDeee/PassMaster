@@ -396,7 +396,6 @@ nav #Blank {
 
 #Email:hover a {
   color: #f33d56;
-  cursor: none;
   letter-spacing: 0.1vw;
 }
 
@@ -421,7 +420,7 @@ nav #Blank {
 
 #message {
   height: 14vh;
-  cursor: none;
+  cursor: pointer;
 }
 
 .name-input input,
@@ -441,7 +440,7 @@ nav #Blank {
 }
 
 .name-input input:hover {
-  cursor: none;
+  cursor: pointer;
 }
 
 .name-input label {
@@ -592,6 +591,7 @@ nav #Blank {
   border-radius: 5vw;
   padding-left: 2vw;
   padding-right: 2vw;
+  cursor: pointer;
 }
 
 .submit-button::after {
@@ -642,7 +642,6 @@ nav #Blank {
 
 .submit-button:hover {
   background: white;
-  cursor: none;
   padding-left: 3vw;
   padding-right: 3vw;
 }
