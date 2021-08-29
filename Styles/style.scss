@@ -5,8 +5,11 @@
 
   transition: all 0.3s 0s ease-out;
   font-family: "Lexend", sans-serif;
+
+  /*
   transition: height 0.8s 0.2s cubic-bezier(0.25, 0, 0, 1),
     width 0.8s 0.2s cubic-bezier(0.25, 0, 0, 1);
+    */
 }
 
 @font-face {
@@ -230,6 +233,8 @@ nav #Blank {
     align-items: center;
     position: relative;
 
+    transition: all 0.7s cubic-bezier(0.25, 0, 0, 1);
+
     p {
       color: white;
       margin-top: 5vh;
@@ -275,7 +280,7 @@ nav #Blank {
 
 #Email,
 #Email a {
-  font-family: "Poppins";
+  font-family: "Lexend";
   text-decoration: none;
   font-weight: 600;
   font-size: 1.3vw;
@@ -329,7 +334,7 @@ nav #Blank {
 .name-input label {
   height: 100%;
   width: 82%;
-  font-family: "Poppins";
+  font-family: "Lexend";
   font-size: 1.3vw;
   font-weight: 400;
   color: white;
@@ -429,6 +434,7 @@ nav #Blank {
   z-index: 0;
   align-self: flex-end;
   justify-self: flex-end;
+  background: none;
 }
 
 .submit-button {
@@ -449,7 +455,7 @@ nav #Blank {
   content: "SUBMIT";
   font-size: 1.3vw;
   color: transparent;
-  font-family: "Poppins";
+  font-family: "Lexend";
   font-weight: 600;
   letter-spacing: 0.05vw;
   background: white;
@@ -465,7 +471,7 @@ nav #Blank {
   content: "SUBMIT";
   font-size: 1.3vw;
   color: white;
-  font-family: "Poppins";
+  font-family: "Lexend";
   font-weight: 600;
   letter-spacing: 0.05vw;
   transition: all 0.3s 0s ease-out;
@@ -478,7 +484,7 @@ nav #Blank {
   transform: translateX(0.2vw);
 }
 .submit-button:hover::before {
-  color: white;
+  color: #f33d56;
   letter-spacing: 0.2vw;
   transform: translateX(0.2vw);
 }

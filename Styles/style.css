@@ -6,8 +6,10 @@
   -webkit-transition: all 0.3s 0s ease-out;
   transition: all 0.3s 0s ease-out;
   font-family: "Lexend", sans-serif;
-  -webkit-transition: height 0.8s 0.2s cubic-bezier(0.25, 0, 0, 1), width 0.8s 0.2s cubic-bezier(0.25, 0, 0, 1);
-  transition: height 0.8s 0.2s cubic-bezier(0.25, 0, 0, 1), width 0.8s 0.2s cubic-bezier(0.25, 0, 0, 1);
+  /*
+  transition: height 0.8s 0.2s cubic-bezier(0.25, 0, 0, 1),
+    width 0.8s 0.2s cubic-bezier(0.25, 0, 0, 1);
+    */
 }
 
 @font-face {
@@ -322,6 +324,8 @@ nav #Blank {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  -webkit-transition: all 0.7s cubic-bezier(0.25, 0, 0, 1);
+  transition: all 0.7s cubic-bezier(0.25, 0, 0, 1);
 }
 
 #section1 #submition p {
@@ -384,7 +388,7 @@ nav #Blank {
 
 #Email,
 #Email a {
-  font-family: "Poppins";
+  font-family: "Lexend";
   text-decoration: none;
   font-weight: 600;
   font-size: 1.3vw;
@@ -448,7 +452,7 @@ nav #Blank {
 .name-input label {
   height: 100%;
   width: 82%;
-  font-family: "Poppins";
+  font-family: "Lexend";
   font-size: 1.3vw;
   font-weight: 400;
   color: white;
@@ -573,6 +577,7 @@ nav #Blank {
   -ms-flex-item-align: end;
       align-self: flex-end;
   justify-self: flex-end;
+  background: none;
 }
 
 .submit-button {
@@ -600,7 +605,7 @@ nav #Blank {
   content: "SUBMIT";
   font-size: 1.3vw;
   color: transparent;
-  font-family: "Poppins";
+  font-family: "Lexend";
   font-weight: 600;
   letter-spacing: 0.05vw;
   background: white;
@@ -619,7 +624,7 @@ nav #Blank {
   content: "SUBMIT";
   font-size: 1.3vw;
   color: white;
-  font-family: "Poppins";
+  font-family: "Lexend";
   font-weight: 600;
   letter-spacing: 0.05vw;
   -webkit-transition: all 0.3s 0s ease-out;
@@ -636,7 +641,7 @@ nav #Blank {
 }
 
 .submit-button:hover::before {
-  color: white;
+  color: #f33d56;
   letter-spacing: 0.2vw;
   -webkit-transform: translateX(0.2vw);
           transform: translateX(0.2vw);
