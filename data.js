@@ -21,6 +21,7 @@ ContactForm.addEventListener(
     let dataEntry = {
       "entry.1573542637": Name,
       "entry.772186418": Email,
+      "entry.666554939": "Pending",
     };
 
     let dataEntryParams = new URLSearchParams(dataEntry);
