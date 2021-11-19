@@ -27,11 +27,10 @@
 
     <script>
       const h3 = document.querySelector("h3");
-
-      window.addEventListener("deviceorientation", orientation);
-      const orientation = () => {
+      const orientation = (e) => {
         h3.innerHTML = `${e.beta}`;
       };
+      window.addEventListener("deviceorientation", orientation);
     </script>
   </body>
 </html>
